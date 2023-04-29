@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   overflow: hidden;
   margin: 0;
-  background: grey;
+  background: -webkit-linear-gradient(90deg, #001800, #002713, #001100);
+  background: linear-gradient(90deg, #001800, #002713, #001100);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -74,5 +75,5 @@ body {
 
 .slide.active h3 {
   opacity: 1;
-  transition: opacity .3s ease-in .4s;
+  transition: opacity 0.3s ease-in 0.4s;
 }
